@@ -18,7 +18,11 @@ $ ionic platform add ios
 $ ionic platform add android
 ```
 
-And then add any plugins (http://ngcordova.com/docs/plugins/)
+----
+## Optional
+----
+
+Add any plugins (http://ngcordova.com/docs/plugins/) you want to include
 
 ```sh
 $ cordova plugin add cordova-plugin-device-motion
@@ -28,7 +32,7 @@ $ cordova plugin add cordova-plugin-statusbar
 etc...
 ```
 
-If you have other dependencies you want to add (i.e. d3.js), do that next. 
+Add other dependencies (i.e. d3.js) 
 
 ```sh
 $ bower install d3 --save
