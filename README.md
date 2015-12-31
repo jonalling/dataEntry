@@ -18,6 +18,16 @@ $ ionic platform add ios
 $ ionic platform add android
 ```
 
+Build the project and test it by running or serving
+
+```sh
+$ ionic build ios
+**and/or**
+$ ionic build android
+
+$ ionic serve 
+```
+
 ## Optional
 
 Add any plugins (http://ngcordova.com/docs/plugins/) you want to include
