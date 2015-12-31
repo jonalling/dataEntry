@@ -7,7 +7,7 @@ $ cd ionic
 ```
 
 ```sh
-$ ionic start [yourAppName] https://github.com/jonalling/dataEntry.git
+$ ionic start [yourAppName] https://github.com/jonalling/dataEntry
 ```
 
 Add platform code from Ionic
