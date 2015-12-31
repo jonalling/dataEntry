@@ -18,9 +18,7 @@ $ ionic platform add ios
 $ ionic platform add android
 ```
 
-----
 ## Optional
-----
 
 Add any plugins (http://ngcordova.com/docs/plugins/) you want to include
 
