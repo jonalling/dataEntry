@@ -17,6 +17,6 @@ angular.module('starter.services', [])
   }
 }])
 
-.factory('Data', function() {
-  return {datapoint: []};
+.factory('DataList', function() {
+  return {data: []};
 })
