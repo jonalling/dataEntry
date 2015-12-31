@@ -1,5 +1,4 @@
 # dataEntry
-#### Ionic CLI
 
 Navigate to your Ionic installation directory
 
