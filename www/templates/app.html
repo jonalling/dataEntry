@@ -1,0 +1,18 @@
+<ion-view class="app">
+  <ion-nav-buttons side="left">
+    <button class="button button-icon button-positive ion-gear-a" ng-click="openSettings()">
+    </button>
+  </ion-nav-buttons>
+  <ion-content class="padding custom-text" scroll="false">
+    <div id="main">
+      <form ng-submit="submit()">
+        Odometer:
+        <input id="odometer" type="text" ng-model="data.odometer" autofocus/>
+        Temperature (F):
+        <input type="text" ng-model="data.temp" />
+        <input type="submit" id="submit" value="Submit" />
+        <pre>{{list}}</pre>
+      </form>
+    </div>
+  </ion-content>
+</ion-view>

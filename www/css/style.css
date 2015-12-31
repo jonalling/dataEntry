@@ -1,0 +1,35 @@
+/* Main color pallet http://colorhunt.co/c/10701 */
+
+@font-face {
+    font-family: 'DINProMedium';
+    src: url('../lib/ionic/fonts/DINProMedium.eot');
+    src: url('../lib/ionic/fonts/DINProMedium.eot') format('embedded-opentype'),
+         url('../lib/ionic/fonts/DINProMedium.woff2') format('woff2'),
+         url('../lib/ionic/fonts/DINProMedium.woff') format('woff'),
+         url('../lib/ionic/fonts/DINProMedium.ttf') format('truetype'),
+         url('../lib/ionic/fonts/DINProMedium.svg#DINProMedium') format('svg');
+}
+
+.app {
+  background-color: #28475C;
+}
+
+/*#main {
+  background-color: #2F8886;
+}*/
+
+.custom-bar {
+  background-color: #1A2F4B!important;
+  border: none;
+}
+
+.custom-text {
+  color: white;
+  font-family: 'DINProMedium'!important;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.boldButton {
+  font-weight: 500!important;
+}
