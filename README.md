@@ -30,13 +30,15 @@ $ ionic serve
 
 ## Optional
 
-Add any plugins (http://ngcordova.com/docs/plugins/) you want to include
+Add any plugins (http://ngcordova.com/docs/plugins/) you need to include
 
 ```sh
 $ cordova plugin add cordova-plugin-device-motion
 $ cordova plugin add cordova-plugin-ble-central
 $ cordova plugin add cordova-plugin-screen-orientation
 $ cordova plugin add cordova-plugin-statusbar
+$ cordova plugin add https://github.com/katzer/cordova-plugin-email-composer.git
+$ cordova plugin add cordova-plugin-file
 etc...
 ```
 
